@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products - ToyShop</title>
+        <link rel="stylesheet" href="style.css">
+        <linl href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./Cart.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="F:\Teddy\logo1.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <a href="Cart.html"><img src="F:\Teddy\download - Copy.jpg" width="30px" height="30px"></a>
+        <img src="F:\Teddy\Menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+     <div class="small-container">
+
+       <div class="row row-2">
+           <h2>All Products</h2>
+           <select>
+               <option>Default Shorting</option>
+               <option>Short by price</option>
+               <option>Short by popularity </option>
+               <option>Short by rating</option>
+               <option>Short by sale</option>
+           </select>
+       </div>
+         
+         <div class="row">
+            <div class="col-4">
+                <img src="F:\Teddy\Product-1.jpg" class="img1">
+                <h4 class="heading1">Red Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price1">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-2.jpg">
+                <h4>Pink Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price2">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-3.jpg">
+                <h4>Green Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price3">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-4.jpg">
+                <h4>Blue Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price4">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+                <img src="F:\Teddy\Product-5.jpg">
+                <h4>Red Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price5">$50.00</p>
+             <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-6.jpg">
+                <h4>Pink Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price6">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-7.jpg">
+                <h4>Green Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="price7">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+                <img src="F:\Teddy\Product-8.jpg">
+                <h4>Blue Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price8">$50.00</p>
+            <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+             <div class="row">
+              <div class="col-4">
+                  <img src="F:\Teddy\Product-9.jpg">
+                  <h4>Red Teddy</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+                  <p class="price9">$50.00</p>
+             <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+              </div>
+              <div class="col-4">
+                <img src="F:\Teddy\Product-10.jpg">
+                <h4>Red Teddy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price10">$50.00</p>
+             <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+            </div>
+            <div class="col-4">
+               <img src="F:\Teddy\Product-11.jpg">
+               <h4>Red Teddy</h4>
+               <div class="rating">
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star"></i>
+                   <i class="fa fa-star-o"></i>
+               </div>
+               <p class="price11">$50.00</p>
+             <button class="cart_button" onclick="addToCart()">Add to cart</button>
+
+           </div>
+           <div class="col-4">
+            <img src="F:\Teddy\Product-12.jpg">
+            <h4>Red Teddy</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p class="price12">$50.00</p>
+        <button class="cart_button" onclick="openLink()">Add to cart</button>
+
+        </div>
+    </div>
+
+     <div class="page-btn">
+         <span>1</span>
+         <span>2</span>
+         <span>3</span>
+         <span>4</span>
+         <span>&#8594;</span>
+     </div>
+
+ </div>
+        
+   
+
+   <!-------------------footer----------------->
+
+   <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="footer-col-1">
+                   <h3>Download Our App</h3>
+                   <p>Download App for Android and ios mobile phone.</p>
+                   <div class="app-logo">
+                       <img src="F:\Teddy\Play.png">
+                       <img src="F:\Teddy\App.png">
+                   </div>
+               </div>
+               <div class="footer-col-2">
+                   <img src="F:\Teddy\logo1.jpg">
+                   <p>Our Purpose Is To Sustainably Make The Pleasure.</p>
+               </div>
+               <div class="footer-col-3">
+                   <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+               </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Fcebook</li>
+                    <li> Twitter</li>
+                    <li> Instagram</li>
+                    <li> YouTube</li>
+                </ul>
+             </div>
+          </div>
+          <hr>
+          <p class="Copyright">Copyright 2021 - Easy Tutorials</p>
+       </div>
+   </div>
+   <!--------------js for toggle menu--------------->
+   <script src="F:\Teddy\cart.js" >
+       
+    //    var MenuItems = document.getElementById("MenuItems");
+
+    //    MenuItems.style.maxHeight = "0px";
+
+    //    function menutoggle(){
+    //        if(MenuItems.style.maxHeight == "0px")
+    //        {
+    //            MenuItems.style.maxHeight = "200px"
+    //        }
+    //        else
+    //        {
+    //            MenuItems.style.maxHeight = "0px"
+    //        }
+           
+    //    }
+   </script>
+
+
+
+</body>
+</html>

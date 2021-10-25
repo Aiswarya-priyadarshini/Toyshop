@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Checkout</title>
+</head>
+<style>
+    .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.3rem 2rem;
+    font-size: 1rem;
+    color:#fff;
+    background:#d3ad7f;
+    cursor: pointer;
+    
+}
+</style>
+<body>
+    <form action="final.html" method="post" id="checkout-order-form">
+        <h2>Your Details</h2>
+        
+        <fieldset id="fieldset-billing">
+            <legend>Billing</legend>
+            <center>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" data-type="string" data-message="This field cannot be empty" />
+            </div>
+        </br>
+    </br>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" data-type="expression" data-message="Not a valid email address" />
+            </div>
+        </br>
+    </br>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" data-type="string" data-message="This field cannot be empty" />
+            </div>
+        </br>
+    </br>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" data-type="string" data-message="This field cannot be empty" />
+            </div>
+        </br>
+    </br>
+            <div>
+                <label for="zip">ZIP Code</label>
+                <input type="text" name="zip" id="zip" data-type="string" data-message="This field cannot be empty" />
+            </div>
+        </br>
+    </br>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country" data-type="string" data-message="This field cannot be empty">
+                    <option value="">Select</option>
+                    
+                    <option value="IN">India</option>
+                </select>
+            </div>
+        </br>
+    </br>
+        </fieldset>
+        <center><p><input type="submit" id="submit-order" value="Submit" class="btn" /></p></center>
+    </center>
+    </form>    
+</body>
